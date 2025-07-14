@@ -1,0 +1,1065 @@
+2025/06/25 12:35:46| ERROR| Something went wrong product validation failed: category: Cast to ObjectId failed for value "men" (type string) at path "category" because of "BSONError"
+2025/06/25 13:55:39| ERROR| Something went wrong Product validation failed: name: Path `name` is required., desc: Path `desc` is required., brand: Path `brand` is required., subcategory: Path `subcategory` is required.
+2025/06/28 18:36:53| ERROR| Something went wrong: Subcategory is not defined
+2025/06/28 20:20:46| ERROR| Error editing order: Order validation failed: items.0.price: Path `price` is required.
+2025/06/28 20:23:38| ERROR| Error editing order: Order validation failed: items.0.price: Path `price` is required.
+2025/06/29 11:39:54| ERROR| Error creating category: Category validation failed: name: `zara` is not a valid enum value for path `name`.
+2025/06/29 12:05:16| ERROR| Something went wrong Model.findById() no longer accepts a callback
+2025/06/29 12:08:04| ERROR| Something went wrong Model.findById() no longer accepts a callback
+2025/06/29 12:08:33| ERROR| Something went wrong Model.findById() no longer accepts a callback
+2025/06/29 12:17:41| ERROR| Something went wrong isactive is not defined
+2025/06/29 14:12:06| ERROR| Error creating brand: Cannot destructure property 'name' of 'req.body' as it is undefined.
+2025/06/30 22:15:20| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:15:37| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:33:22| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:33:24| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:37:51| ERROR| Error GET /products | CORS Policy: Origin not allowed
+Error: CORS Policy: Origin not allowed
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:11:29)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:37:52| ERROR| Error GET /products | CORS Policy: Origin not allowed
+Error: CORS Policy: Origin not allowed
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:11:29)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:37:52| ERROR| Error GET /products | CORS Policy: Origin not allowed
+Error: CORS Policy: Origin not allowed
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:11:29)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:44:08| ERROR| Error GET /products | CORS Policy: Origin not allowed
+Error: CORS Policy: Origin not allowed
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:11:29)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:44:16| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:44:17| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:44:18| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:8:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:46:49| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:7:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:46:51| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:7:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:47:29| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:7:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at jsonParser (E:\nti\e-backend\node_modules\body-parser\lib\types\json.js:100:7)
+2025/06/30 22:49:50| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:7:27)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/06/30 22:50:50| ERROR| Error GET /products | Cannot read properties of undefined (reading 'includes')
+TypeError: Cannot read properties of undefined (reading 'includes')
+    at origin (E:\nti\e-backend\middleware\cors.middleware.js:10:31)
+    at E:\nti\e-backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\nti\e-backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\nti\e-backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (E:\nti\e-backend\node_modules\router\index.js:342:13)
+    at E:\nti\e-backend\node_modules\router\index.js:297:9
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 01:35:42| ERROR| Error POST /cart/add | AppError is not defined
+ReferenceError: AppError is not defined
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:29:23)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 01:38:14| ERROR| Error POST /cart/add | Only 0 items available
+Error: Only 0 items available
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:23:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 01:39:38| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 01:44:16| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 01:49:01| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 01:53:13| ERROR| Error POST /cart/add?productId=68611fb90b62ca972f6a5455&quantity=2 | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:77:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 01:57:49| ERROR| Error POST /cart/add?productId=68611fb90b62ca972f6a5455&quantity=2 | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 01:57:51| ERROR| Error POST /cart/add?productId=68611fb90b62ca972f6a5455&quantity=2 | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:00:02| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:00:23| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:18:58| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:43:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:19:21| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:43:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:19:34| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:43:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:19:48| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:43:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:22:25| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:79:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:24:55| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:67:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:25:52| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:67:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:27:04| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:35:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:28:13| ERROR| Error POST /cart/add | AppError is not defined
+ReferenceError: AppError is not defined
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:29:23)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:31:29| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:30:25)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:32:33| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:30:25)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:33:19| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:30:25)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:38:10| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:30:25)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:46:17| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:30:25)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:48:15| ERROR| Error POST /cart/add | AppError is not defined
+ReferenceError: AppError is not defined
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:29:23)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 02:51:07| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:67:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 02:51:12| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:67:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 12:41:17| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:41:21| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:42:04| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:43:08| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:43:38| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:43:50| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:44:01| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:47:49| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:47:56| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 12:48:46| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 13:34:04| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 13:34:42| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 13:34:47| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 13:35:15| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 13:35:29| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 13:36:11| ERROR| Error GET /cart | Failed to retrieve cart
+Error: Failed to retrieve cart
+    at exports.getCart (E:\nti\e-backend\controllers\cart.controller.js:178:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/03 22:06:09| ERROR| Error POST /testimonial | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/03 22:08:00| ERROR| Error POST /testimonial | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/05 13:56:52| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/05 15:52:00| ERROR| Error PUT /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndUpdate (E:\nti\e-backend\node_modules\mongoose\lib\query.js:3454:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:78:23
+2025/07/05 15:54:19| ERROR| Error PUT /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOneAndUpdate (E:\nti\e-backend\node_modules\mongoose\lib\query.js:3454:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:78:23
+2025/07/05 15:57:55| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 15:59:28| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:09:17| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:13:58| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:14:10| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:14:11| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:17:27| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:22:59| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:26:54| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:29:12| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:35:17| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:35:42| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/05 16:35:50| ERROR| Error GET /user/undefined | Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (E:\nti\e-backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (E:\nti\e-backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (E:\nti\e-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (E:\nti\e-backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (E:\nti\e-backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (E:\nti\e-backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async E:\nti\e-backend\controllers\user.controller.js:66:18
+2025/07/06 14:50:10| ERROR| Error GET /cart | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/06 14:57:58| ERROR| Error GET /order/my-orders | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/07 01:28:07| ERROR| Error POST /products | Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (E:\nti\e-backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (E:\nti\e-backend\node_modules\multer\lib\make-middleware.js:123:7)
+    at Multipart.emit (node:events:519:28)
+    at HeaderParser.cb (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+2025/07/07 01:39:01| ERROR| Error GET /products/adminproducts | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/07 01:41:50| ERROR| Error GET /products/adminproducts | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/07 02:25:45| ERROR| Something went wrong Cast to ObjectId failed for value "" (type string) at path "_id" for model "Subcategory"
+2025/07/07 02:25:52| ERROR| Something went wrong Cast to ObjectId failed for value "" (type string) at path "_id" for model "Subcategory"
+2025/07/07 02:29:30| ERROR| Something went wrong Cast to ObjectId failed for value "" (type string) at path "_id" for model "Subcategory"
+2025/07/08 06:57:33| ERROR| Failed to update product: Cannot destructure property 'name' of 'req.body' as it is undefined.
+2025/07/08 09:37:01| ERROR| Failed to update product: Product validation failed: desc: Path `desc` is required.
+2025/07/08 10:13:38| ERROR| Error PUT /products/68611fb90b62ca972f6a5455 | Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (E:\nti\e-backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (E:\nti\e-backend\node_modules\multer\lib\make-middleware.js:123:7)
+    at Multipart.emit (node:events:519:28)
+    at HeaderParser.cb (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+2025/07/08 10:16:11| ERROR| Error PUT /products/68611fb90b62ca972f6a5455 | Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (E:\nti\e-backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (E:\nti\e-backend\node_modules\multer\lib\make-middleware.js:123:7)
+    at Multipart.emit (node:events:519:28)
+    at HeaderParser.cb (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (E:\nti\e-backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (E:\nti\e-backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+2025/07/08 11:00:10| ERROR| Error GET /order/admin/all-orders | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/08 12:09:59| ERROR| Error GET /faq/admin | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/08 12:33:05| ERROR| Error GET /order/my-orders | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/08 15:00:46| ERROR| Error fetching subcategory: Cast to ObjectId failed for value "admin" (type string) at path "_id" for model "Subcategory"
+2025/07/08 19:39:55| ERROR| Error creating brand: isactive is not defined
+2025/07/08 19:39:56| ERROR| Error creating brand: isactive is not defined
+2025/07/08 19:40:01| ERROR| Error creating brand: isactive is not defined
+2025/07/08 19:43:39| ERROR| Error creating brand: isactive is not defined
+2025/07/08 22:25:56| ERROR| Error POST /cart/add | Cannot add more than available stock (10)
+Error: Cannot add more than available stock (10)
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:35:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/09 16:49:59| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 16:50:46| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 17:01:14| ERROR| Error POST /cart/add | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 17:09:59| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:141:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/09 17:16:32| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:139:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/09 17:17:16| ERROR| Error POST /cart/add | Failed to add item to cart
+Error: Failed to add item to cart
+    at exports.addToCart (E:\nti\e-backend\controllers\cart.controller.js:139:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025/07/09 19:28:50| ERROR| Error GET /order/my-orders | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:52:42| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:52:46| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:52:56| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:53:25| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:53:37| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:54:15| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/09 22:54:31| ERROR| Error GET /user | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/10 13:35:55| ERROR| Error PUT /cart/686f978399cf8ace18b69c2f | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at param (E:\nti\e-backend\node_modules\router\index.js:600:14)
+    at param (E:\nti\e-backend\node_modules\router\index.js:610:14)
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:664:3)
