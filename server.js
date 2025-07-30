@@ -19,17 +19,20 @@ app.use(cors({
   credentials: true
 }));
 
-// Session configuration
+const MongoStore = require('connect-mongo');
+
 app.use(session({
   secret: JWT_SECRET,
   resave: false,
   saveUninitialized: true,
+  store: MongoStore.create({ mongoUrl: CONNECTION_STRING }),
   cookie: {
     httpOnly: true,
     secure: false,
-    maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
-  }
+    maxAge: 7 * 24 * 60 * 60 * 1000,
+  },
 }));
+
 
 // Middleware
 app.use(express.json());
