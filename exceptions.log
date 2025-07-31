@@ -12845,3 +12845,37 @@ SyntaxError: Unexpected token 'catch'
     at Object.<anonymous> (E:\nti\e-backend\routes\cart.route.js:3:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2025/07/30 22:02:30| ERROR| uncaughtException: MongoStore is not defined
+ReferenceError: MongoStore is not defined
+    at Object.<anonymous> (E:\nti\e-backend\server.js:27:10)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+ReferenceError: MongoStore is not defined
+    at Object.<anonymous> (E:\nti\e-backend\server.js:27:10)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+2025/07/30 22:02:43| ERROR| uncaughtException: MongoStore is not defined
+ReferenceError: MongoStore is not defined
+    at Object.<anonymous> (E:\nti\e-backend\server.js:27:10)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+ReferenceError: MongoStore is not defined
+    at Object.<anonymous> (E:\nti\e-backend\server.js:27:10)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49

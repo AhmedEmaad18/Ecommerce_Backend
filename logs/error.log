@@ -1111,3 +1111,63 @@ Error: Invalid token. Please log in again!
     at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
     at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
     at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
+2025/07/30 22:07:40| ERROR| Error PUT /cart/688a6d76dc6e14a5b55eeeab | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at param (E:\nti\e-backend\node_modules\router\index.js:600:14)
+    at param (E:\nti\e-backend\node_modules\router\index.js:610:14)
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:664:3)
+2025/07/30 22:07:44| ERROR| Error PUT /cart/688a6d76dc6e14a5b55eeeab | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at param (E:\nti\e-backend\node_modules\router\index.js:600:14)
+    at param (E:\nti\e-backend\node_modules\router\index.js:610:14)
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:664:3)
+2025/07/30 22:07:50| ERROR| Error PUT /cart/688a6d76dc6e14a5b55eeeab | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at param (E:\nti\e-backend\node_modules\router\index.js:600:14)
+    at param (E:\nti\e-backend\node_modules\router\index.js:610:14)
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:664:3)
+2025/07/30 22:08:15| ERROR| Error PUT /cart/688a6d9bdc6e14a5b55eeec7 | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at param (E:\nti\e-backend\node_modules\router\index.js:600:14)
+    at param (E:\nti\e-backend\node_modules\router\index.js:610:14)
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:664:3)
+2025/07/30 22:13:48| ERROR| Error GET /faq/admin | Invalid token. Please log in again!
+Error: Invalid token. Please log in again!
+    at exports.authenticate (E:\nti\e-backend\middleware\auth.middleware.js:28:19)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at next (E:\nti\e-backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (E:\nti\e-backend\node_modules\router\lib\route.js:117:3)
+    at handle (E:\nti\e-backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (E:\nti\e-backend\node_modules\router\lib\layer.js:152:17)
+    at E:\nti\e-backend\node_modules\router\index.js:295:15
+    at processParams (E:\nti\e-backend\node_modules\router\index.js:582:12)
+    at next (E:\nti\e-backend\node_modules\router\index.js:291:5)
+    at Function.handle (E:\nti\e-backend\node_modules\router\index.js:186:3)
